@@ -74,5 +74,8 @@ func main() {
 	if err != nil {
 		fmt.Println(os.Getenv("HOME"))
 	}
+	if path == "/" {
+		fmt.Println(os.Getenv("HOME"))
+	}
 	fmt.Println(path)
 }
